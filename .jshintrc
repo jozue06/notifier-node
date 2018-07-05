@@ -1,6 +1,0 @@
-{
-  "node": true,
-  "laxcomma": true,
-  "mocha": true,
-  "esversion": 6
-}

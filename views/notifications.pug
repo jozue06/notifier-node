@@ -1,7 +1,7 @@
 extends layout
 
 block content
-  h3.title.spaced STAR WARS
+  h3.title.spaced DARK CHAT
 
   p.spaced
     | Receive update, you must!
@@ -15,19 +15,7 @@ block content
             textarea.form-control(name='message')
             span.text-primary#validation_message
 
-        .form-group
-          label.col-md-2.control-label Movie
-          .col-md-10
-            select.form-control(name='movie')
-              option(value='episode_viii') Episode VIII
-              option(value='rogue_one') Rogue One
-              option(value='han_solo_spinoff') Han Solo Spinoff
-
-        .form-group
-          .col-md-10.col-md-offset-2
-            a.btn.btn-danger#reset(href='')
-              i.fa.fa-close
-              | Reset
+       
             button.btn.btn-primary
               i.fa.fa-envelope
               | Send Notifications
